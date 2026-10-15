@@ -1,0 +1,27 @@
+
+
+.sectionSize {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: pink;
+    width: 100vw;
+    height: 100px;
+    
+}
+
+.headerLogo {
+    
+}
+
+/*#Hero {
+    background-color: rosybrown;
+}
+
+.heroBackImage {
+    width: 90vw;
+    height: auto;
+    
+}*/
