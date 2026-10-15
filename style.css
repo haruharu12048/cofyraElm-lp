@@ -6,13 +6,29 @@
 }
 
 header {
-    background-color: pink;
+    background: linear-gradient(
+    to bottom,
+    rgb(217 194 162 / 100%) ,
+    rgb(217 194 162 / 100%) 35%,
+    rgb(217 194 162 / 0%)
+    );
     width: 100vw;
-    height: 100px;
-    
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .headerLogo {
+ height: 85%;
+ width: auto;
+ padding: auto;
+}
+
+.menu {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
     
 }
 
