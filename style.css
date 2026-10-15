@@ -15,9 +15,10 @@ header {
     width: 100vw;
     height: 7rem;
 
-    position: sticky;
+    position: fixed;
     top: 0;
-    
+    z-index: 2;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,12 +40,18 @@ header {
     column-gap: 1em;
 }
 
-/*#Hero {
+#Hero {
     background-color: rosybrown;
 }
 
 .heroBackImage {
-    width: 90vw;
+    width: 10vw;
     height: auto;
+    display: grid;
+    z-index: -1;
+    
+}
 
-}*/
+body {
+    height: 500vh;
+}
