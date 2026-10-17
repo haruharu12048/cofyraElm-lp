@@ -1,5 +1,7 @@
 h1 {
-    font-family: amarna, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:
+        amarna, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 4rem;
 }
 
@@ -38,25 +40,26 @@ header {
 .menu {
     font-size: 1.3rem;
     font-weight: 300;
-
     padding: 0 2rem;
+    
     display: flex;
     flex-direction: row;
     column-gap: 1em;
 }
 
 #Hero {
-    background-color: #d9c2a2;
     display: flex;
+    
+    background-color: #d9c2a2;
 }
 
 .heroBackImage {
     height: 80vh;
     width: auto;
 
+    z-index: 1;
     position: absolute;
     left: 30vw;
-    z-index: 1;
 }
 
 .heroCELogo {
@@ -72,19 +75,29 @@ header {
 }
 
 #About {
+    color: white;
+
+    background-image: url(images/about.webp);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-size: 120%;
+    background-position: center;
+}
+
+.about.contents {
     display: flex;
     
-    color: white;
-    background-image: url(images/about.webp);
+    justify-content: left;
+    flex-direction: column;
 }
 
 .aboutCELogo {
-    height:50px;
-    width: auto;
-    
-    
+    height: auto;
+    width: 20rem;
 }
 
+
+/*For confirmation*/
 body {
     height: 500vh;
 }
