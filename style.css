@@ -54,7 +54,7 @@ header {
     z-index: 1;
 }
 
-.heroLogo {
+.heroCELogo {
     width: 35rem;
     height: auto;
     
@@ -66,6 +66,17 @@ header {
     filter: drop-shadow(0 1px 6px #D9C2A2) drop-shadow(0 .5rem 1rem #D9C2A2);
 }
 
+#About {
+    display: flex;
+    justify-content: center;
+    > img {
+        height: 100%;
+        width: auto;
+        scale: 1.1;
+    }
+}
+
 body {
     height: 500vh;
 }
+
