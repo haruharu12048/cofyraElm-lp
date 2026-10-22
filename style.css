@@ -115,6 +115,9 @@ p.rise.message{
 }
 
 #Product {
+height: 142vh;
+width: 100%;
+    
  border: 5px solid;
  border-color: teal;
  
@@ -139,8 +142,10 @@ div.productView {
 }
 
 div.productViewThumnail {
-    width: 72%;
+    width: 83%;
     height: 51%;
+
+    border: 3px solid #d9c2a2;
 
     display: flex;
     align-items: center;
