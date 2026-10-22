@@ -35,7 +35,7 @@ header {
     justify-content: space-between;
 }
 
-.headerLogo {
+.header.logo {
     height: auto;
     width: auto;
     padding: 0 2rem;
@@ -113,6 +113,48 @@ p.rise.message{
     right: 0;
     margin: 5%;
 }
+
+#Product {
+ border: 5px solid;
+ border-color: teal;
+ 
+ display: block;
+ padding: 5%;
+}
+
+#productContent {
+    height: 100%;
+    width: 100%;
+    
+    display: block;
+    padding: 5% 0;
+}
+
+div.productView {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.productViewThumnail {
+    width: 72%;
+    height: 51%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    > img {
+        height: 100%;
+        width: 100%;
+
+        object-fit: cover;
+        object-position: 50% 70%;
+    }
+}
+
 
 
 /*For confirmation*/
