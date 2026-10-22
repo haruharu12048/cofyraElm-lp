@@ -12,6 +12,8 @@ h1 {
 .sectionSize {
     width: 100vw;
     height: 100vh;
+
+    display: block;
 }
 
 header {
@@ -121,7 +123,6 @@ width: 100%;
  border: 5px solid;
  border-color: teal;
  
- display: block;
  padding: 5%;
 }
 
@@ -158,6 +159,10 @@ div.productViewThumnail {
         object-fit: cover;
         object-position: 50% 70%;
     }
+}
+
+div.productView.ArrowButtons {
+    
 }
 
 

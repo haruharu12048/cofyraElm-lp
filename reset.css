@@ -27,3 +27,13 @@ a {
     text-decoration: none;
     color: black;
 }
+
+button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
