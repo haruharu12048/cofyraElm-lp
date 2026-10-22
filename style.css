@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1 {
     font-family:
         amarna, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -85,16 +89,24 @@ header {
 }
 
 .about.contents {
+    height: 100%;
+    padding: 1%;
+
     display: flex;
-    
-    justify-content: left;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.aboutCELogo {
+img.aboutCELogo {
     height: auto;
     width: 20rem;
 }
+
+p.rise.message{
+    text-align: right;
+    
+}
+
 
 
 /*For confirmation*/
