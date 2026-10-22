@@ -80,21 +80,24 @@ header {
 
 #About {
     color: white;
+    background-color: #0B0B0B;
 
+    top: 0;
     background-image: url(images/about.webp);
     background-repeat: no-repeat;
     background-size: auto 100%;
-    background-size: 120%;
     background-position: center;
 }
 
 .about.contents {
     height: 100%;
-    padding: 1%;
-
+    padding: 3%;
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
+
+    font-size: 1.5rem;
 }
 
 img.aboutCELogo {
@@ -104,9 +107,12 @@ img.aboutCELogo {
 
 p.rise.message{
     text-align: right;
+    position: absolute;
     
+    bottom: 0;
+    right: 0;
+    margin: 5%;
 }
-
 
 
 /*For confirmation*/
