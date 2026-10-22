@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -47,7 +47,7 @@ header {
     font-size: 1.3rem;
     font-weight: 300;
     padding: 0 2rem;
-    
+
     display: flex;
     flex-direction: row;
     column-gap: 1em;
@@ -55,7 +55,7 @@ header {
 
 #Hero {
     display: flex;
-    
+
     background-color: #d9c2a2;
 }
 
@@ -82,7 +82,7 @@ header {
 
 #About {
     color: white;
-    background-color: #0B0B0B;
+    background-color: #0b0b0b;
 
     top: 0;
     background-image: url(images/about.webp);
@@ -94,7 +94,7 @@ header {
 .about.contents {
     height: 100%;
     padding: 3%;
-    
+
     display: flex;
     flex-direction: column;
     position: relative;
@@ -107,29 +107,29 @@ img.aboutCELogo {
     width: 20rem;
 }
 
-p.rise.message{
+p.rise.message {
     text-align: right;
     position: absolute;
-    
+
     bottom: 0;
     right: 0;
     margin: 5%;
 }
 
 #Product {
-height: 142vh;
-width: 100%;
-    
- border: 5px solid;
- border-color: teal;
- 
- padding: 5%;
+    height: 142vh;
+    width: 100%;
+
+    border: 5px solid;
+    border-color: teal;
+
+    padding: 5%;
 }
 
 #productContent {
     height: 100%;
     width: 100%;
-    
+
     display: block;
     padding: 5% 0;
 }
@@ -151,7 +151,7 @@ div.productViewThumnail {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     > img {
         height: 100%;
         width: 100%;
@@ -162,10 +162,25 @@ div.productViewThumnail {
 }
 
 div.productView.ArrowButtons {
+    height: auto;
+    width: auto;
     
+    padding-top: 1rem;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
 }
 
+.nextArrow > img {
+    transform: rotate(180deg);
+}
 
+.prevArrow > img,
+.nextArrow > img {
+    height: 3.5em;
+    width: auto;
+}
 
 /*For confirmation*/
 body {
