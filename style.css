@@ -186,20 +186,31 @@ div.productView.ArrowButtons {
 }
 
 #Process {
-    background-color: mistyrose;
+    position: relative;
 }
 
-div.steps {
+ul.processSteps {
+    width: 100%;
+    height: 80%;
+
+    position: absolute;
+    padding-top: 1rem;
+    left: 0;
+
     display: flex;
     flex-direction: row;
     gap: 0;
+}
+
+.processSteps > li {
+    height: auto;
+    width: 100%;
+}
+.processSteps > li > img {
     width: 100%;
     height: 100%;
-    > img {
-        width: 100%;
-        height: 100%;
-        /*background-color: red;*/
-    }
+
+    object-fit: cover;
 }
 
 /*For confirmation*/
