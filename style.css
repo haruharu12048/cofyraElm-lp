@@ -205,21 +205,28 @@ ul.processSteps {
 .processSteps > li {
     height: auto;
     width: 100%;
-}
-.processSteps > li > img {
-    width: 100%;
-    height: 100%;
+    
+    > img {
+        width: 100%;
+        height: 100%;
 
-    object-fit: cover;
+        object-fit: cover;
+    }
 }
 
 #Explore {
-    background-color: seashell;
+    height: auto;
 }
 
 div.exploreContainer {
+    height: 100%;
+    width: 100%;
+
+    padding-top: 1rem;
+    
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 ul.itemsRow1,
@@ -227,14 +234,16 @@ ul.itemsRow2 {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-    /*border: 1px solid red;*/
 }
 
 li.item {
-    height: 100px;
-    width: 100px;
+    height: 11vw;
+    width: 11vw;
+    aspect-ratio: 1/1;
+
     > img {
-        height: 100px;
-        width: 100px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 }
