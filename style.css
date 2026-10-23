@@ -213,7 +213,28 @@ ul.processSteps {
     object-fit: cover;
 }
 
-/*For confirmation*/
-body {
-    height: 500vh;
+#Explore {
+    background-color: seashell;
+}
+
+div.exploreContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.itemsRow1,
+ul.itemsRow2 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    /*border: 1px solid red;*/
+}
+
+li.item {
+    height: 100px;
+    width: 100px;
+    > img {
+        height: 100px;
+        width: 100px;
+    }
 }
