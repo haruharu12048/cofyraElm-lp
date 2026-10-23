@@ -205,7 +205,7 @@ ul.processSteps {
 .processSteps > li {
     height: auto;
     width: 100%;
-    
+
     > img {
         width: 100%;
         height: 100%;
@@ -223,7 +223,7 @@ div.exploreContainer {
     width: 100%;
 
     padding-top: 1rem;
-    
+
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -246,4 +246,33 @@ li.item {
         width: 100%;
         object-fit: cover;
     }
+}
+
+footer {
+    background-color: #d9c2a2;
+    height: 60vh;
+    position: relative;
+}
+
+img#footerLogo {
+    height: 10rem;
+
+    position: absolute;
+    bottom: 0;
+    margin: 2%;
+}
+
+ul.zoomFurnitures {
+    height: 70%;
+    width: 100%;
+
+    padding: 5% .2rem;
+
+    display: flex;
+    border: 2px solid teal;
+}
+
+.zoomFurnitures > li > img {
+    height: 100px;
+    width: auto;
 }
