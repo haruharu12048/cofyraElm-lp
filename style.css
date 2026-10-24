@@ -266,13 +266,30 @@ ul.zoomFurnitures {
     height: 70%;
     width: 100%;
 
-    padding: 5% .2rem;
+    padding: 5% 0.2rem;
 
     display: flex;
-    border: 2px solid teal;
+
+    > li {
+        padding: 0.2rem;
+
+        > img {
+            height: 100%;
+            width: 100%;
+
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+    }
 }
 
-.zoomFurnitures > li > img {
-    height: 100px;
-    width: auto;
+.item1 {
+    flex-grow: 4;
+}
+.item2 {
+    flex-grow: 1;
+}
+
+.item3 {
+    flex-grow: 2.5;
 }
